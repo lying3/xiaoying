@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Log in</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.staticfile.org/popper.js/1.12.5/umd/popper.min.js"></script>
+  <script src="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
+     <link rel="stylesheet" href="1.css">
+ 
+    <!-- 设置渐变色  -->
+     <style>
+      #grad1 {
+          height: 200px;
+          background: -webkit-linear-gradient(left, white , blue); /* Safari 5.1 - 6.0 */
+          background: -o-linear-gradient(right, white, blue); /* Opera 11.1 - 12.0 */
+          background: -moz-linear-gradient(right, white, violet); /* Firefox 3.6 - 15 */
+          background: linear-gradient(to right, white, white); /* 标准的语法（必须放在最后） */
+      }
+      </style>
+
+     
+</head>
+<body >
+
+   <!-- 菜单栏部分 -->
+		<header class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar">
+			<div class="navbar-nav-scroll">
+				<ul class="navbar-nav bd-navbar-nav flex-row">
+					<li class="nav-item">
+						<a class="logo">My Site</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="mainpage.html">Home</a>
+					</li>
+				</ul>
+			</div>
+			<ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
+				<li class="nav-item"><a class="nav-link" href="register.html">Register</a></li>
+                <li class="nav-item"><a class="nav-link" href="FirstPage.html">  Login</a></li>
+			</ul>
+		</header>
+
+ <div class="blank  " style="background-color:#c0c0c0; height: 40px;">
+
+ </div>
+<div class="container" id="grad1" style="background-color:#ccccff; width: 600px; height: 450px; box-shadow: 5px 5px 2px #888888;">
+
+  <div float:center>
+  <h1><br>Welcome to log in! </h1></div>
+  <form>
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter email">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+    </div>
+    <div class="form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox"> Remember me
+      </label>
+    </div>
+    <div class="container2">
+        <div class="container2-1">
+    <button type="submit" class="btn-1">
+       reset</button>
+    <button type="submit" class="btn-2">Submit</button>
+    
+</div>
+     <p><a href="file:///G:/%E5%85%AC%E5%8F%B8/%E7%99%BB%E5%BD%95%E7%95%8C%E9%9D%A2/refind.html">Forget the password?</a></p>
+    </div>
+  </form>
+</div>
+
+</body>
+</html>
